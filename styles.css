@@ -132,6 +132,10 @@ a {
     all: unset;
     display: inline; /* Optionally restore display to inline if needed */
   }
+
+a:hover{
+    cursor: pointer;
+}
 #blur{
     content: " ";
     z-index: -100;
