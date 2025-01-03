@@ -128,7 +128,10 @@ nav ul li a:hover::after{
     grid-template-columns: 150px 1fr;
     align-items: left;
 }
-
+a {
+    all: unset;
+    display: inline; /* Optionally restore display to inline if needed */
+  }
 #blur{
     content: " ";
     z-index: -100;
